@@ -7,11 +7,11 @@ import otherclasses.Person;
 public class PersonTest {
 	Person pp = new Person("Matte", "Sesso", 32, 'M');
 	
-	/*@Test
+	@Test
 	public void testGetAge() {
-		assertEquals(pp.getAge(), 32);
-		
-	}*/
+		assertEquals(pp.getAge(), 32);	
+	}
+	
 	@Test
 	public void testGetSetAge(){
 		pp.setAge(10);
